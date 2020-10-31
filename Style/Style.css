@@ -1,8 +1,14 @@
+body{
+
+  background-color: #0D0D0D;
+
+}
+
 #codificacion{
 
   align-items: center;
 
-  background-color : #026873            ;
+  background-color : #590835    ;
 
   padding          : 1% 1% 1% 1%;
 
@@ -18,34 +24,34 @@
 }
 #codificacion button{
 
-  color: #048C5A;
+  color: #D9B5A0;
 
   width  : 10% ;
   height : 10% ;
 
-  background-color : #051926 ;
+  background-color : #0D0D0D ;
   border           : none    ;
 
 }
 #codificacion textarea{
 
-  color  : #048C5A;
+  color  : #D9B5A0 ;
 
   font-size: 20pt;
 
   padding: 1%;
 
-  height : 50px;
+  height : 200px;
   width  : 98%;
 
   resize: none;
 
-  background-color : #051926 ;
+  background-color : #0D0D0D ;
   border-style     : none    ;
   margin: 0;
 
   border-bottom-style: solid;
-  border-color: white;
+  border-color: #D9B5A0;
   border-bottom-width: medium;
 
 }
@@ -69,5 +75,13 @@
   border-width: 0;
   margin: 0;
   padding: 0;
+
+}
+#resultado{
+
+  color: #D9B5A0;
+  font-size: 25pt;
+  text-align: center;
+  padding-top: 110px;
 
 }

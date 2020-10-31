@@ -48,6 +48,8 @@ var cesar = cesar || function(txt, a, b, action){
 
           if (action) {
 
+            resultado = "El Mensaje Cifrado es : ";
+
             for (var i = 0; i < txt.length; i++) {
 
               for (var circ = 0; circ < abc.length; circ++) {
@@ -80,6 +82,8 @@ var cesar = cesar || function(txt, a, b, action){
           }
 
           else {
+
+            resultado = "El Mensaje Decifrado es : ";
 
             for (var i = 0; i < txt.length; i++) {
 
