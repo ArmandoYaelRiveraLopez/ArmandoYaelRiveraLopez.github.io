@@ -1,0 +1,73 @@
+#codificacion{
+
+  align-items: center;
+
+  background-color : #026873            ;
+
+  padding          : 1% 1% 1% 1%;
+
+  margin-left: auto;
+  margin-right:auto;
+  margin-top: 20px;
+
+  height: 50em ;
+  width :  60% ;
+
+  display: block ;
+
+}
+#codificacion button{
+
+  color: #048C5A;
+
+  width  : 10% ;
+  height : 10% ;
+
+  background-color : #051926 ;
+  border           : none    ;
+
+}
+#codificacion textarea{
+
+  color  : #048C5A;
+
+  font-size: 20pt;
+
+  padding: 1%;
+
+  height : 50px;
+  width  : 98%;
+
+  resize: none;
+
+  background-color : #051926 ;
+  border-style     : none    ;
+  margin: 0;
+
+  border-bottom-style: solid;
+  border-color: white;
+  border-bottom-width: medium;
+
+}
+
+#codificacion #botones {
+
+  width:    100%;
+  display: block;
+
+  margin: 0;
+
+  text-align:center;
+
+}
+#codificacion #botones button{
+
+  float:none;
+  width: 100%;
+  display: inline-block;
+  height: 4em;
+  border-width: 0;
+  margin: 0;
+  padding: 0;
+
+}
